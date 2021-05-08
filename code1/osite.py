@@ -44,7 +44,7 @@ while(c!=3):
         driver.implicitly_wait(25)
         time.sleep(7)
         password = driver.find_element_by_xpath('/html/body/div[5]/div[3]/div[2]/form/div[2]/div[2]/div[2]/input')
-        password.send_keys('Acchabaccha420')
+        password.send_keys('********')
         c=3
     except Exception as e:
         print(e)
